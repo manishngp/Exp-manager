@@ -1,4 +1,4 @@
-import { Flex, Heading, IconButton, useColorMode, Button, HStack } from '@chakra-ui/react'
+import { Flex, Heading, IconButton, useColorMode,  HStack } from '@chakra-ui/react'
 import { FiMoon, FiSun, FiBell } from 'react-icons/fi'
 
 function Header() {
@@ -14,7 +14,7 @@ function Header() {
       borderBottomWidth="1px"
       shadow="sm"
     >
-      <Heading size="lg">Budget Tracker</Heading>
+      <Heading size="lg">Expense Tracker</Heading>
       <HStack spacing={4}>
         <IconButton
           icon={<FiBell />}
